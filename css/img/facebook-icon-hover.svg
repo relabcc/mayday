@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-step-page" transform="translate(-732.000000, -3291.000000)" fill="#FFFFFF">
+            <g id="A-button-facebook" transform="translate(651.000000, 3278.000000)">
+                <g id="Group-5" transform="translate(81.000000, 13.000000)">
+                    <g id="fi-social-facebook">
+                        <g id="Layer_1">
+                            <g id="White_1_">
+                                <path d="M28.3441667,0 L1.65583333,0 C0.74125,0 0,0.74125 0,1.65583333 L0,28.3445833 C0,29.25875 0.74125,30 1.65583333,30 L16.02375,30 L16.02375,18.3825 L12.1141667,18.3825 L12.1141667,13.855 L16.02375,13.855 L16.02375,10.5158333 C16.02375,6.64083333 18.3904167,4.53125 21.8470833,4.53125 C23.5029167,4.53125 24.9258333,4.65416667 25.3408333,4.70958333 L25.3408333,8.75916667 L22.9433333,8.76041667 C21.0633333,8.76041667 20.6995833,9.65375 20.6995833,10.9645833 L20.6995833,13.8554167 L25.1829167,13.8554167 L24.5991667,18.3829167 L20.6995833,18.3829167 L20.6995833,30 L28.3445833,30 C29.25875,30 30,29.25875 30,28.3441667 L30,1.65583333 C30,0.74125 29.25875,0 28.3441667,0 L28.3441667,0 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-367" y="-211" width="460" height="683.525391"></rect>
+        <rect id="path-2" x="-311" y="-17" width="350" height="263"></rect>
+        <circle id="path-3" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-Copy-18">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <rect stroke="#4A90E2" stroke-width="5" x="-364.5" y="-208.5" width="455" height="678.525391"></rect>
+        </g>
+        <text id="$500,000-+-$100,000-copy" font-family="PingFangTC-Medium, PingFang TC" font-size="18" font-weight="400" line-spacing="55">
+            <tspan x="-26.496" y="36" fill="#4A4A4A">$500,000</tspan>
+            <tspan x="-39.924" y="91" fill="#4A4A4A">+ $100,000</tspan>
+            <tspan x="-39.042" y="146" fill="#4A4A4A">- $170,000</tspan>
+            <tspan x="-81.918" y="201" line-spacing="36" fill="#4990E2">-$120,000(房租)</tspan>
+            <tspan x="-67.662" y="237" line-spacing="36" fill="#4990E2">-$11,000(健保)</tspan>
+            <tspan x="-74.574" y="273" fill="#4990E2">-$44,000(保險)</tspan>
+        </text>
+        <path d="M-362.5,0 L87.5,0" id="Line-Copy-12" stroke="#4990E2" stroke-width="3" stroke-linecap="square"></path>
+        <g id="Rectangle-Copy-18">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <rect stroke="#4A90E2" stroke-width="5" x="-308.5" y="-14.5" width="345" height="258"></rect>
+        </g>
+        <g id="Group-22">
+            <g id="Oval-3">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <circle stroke="#4A90E2" stroke-width="3" cx="10" cy="10" r="8.5"></circle>
+            </g>
+            <rect id="Rectangle-3" fill="#4990E2" transform="translate(10.000000, 10.333333) scale(-1, 1) rotate(45.000000) translate(-10.000000, -10.333333) " x="5" y="9.33333333" width="10" height="2"></rect>
+            <rect id="Rectangle-3" fill="#4990E2" transform="translate(10.000000, 10.333333) rotate(45.000000) translate(-10.000000, -10.333333) " x="5" y="9.33333333" width="10" height="2"></rect>
+        </g>
+    </g>
+</svg>

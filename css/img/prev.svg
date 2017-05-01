@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="80px" viewBox="0 0 40 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 18</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
+        <g id="Group-18">
+            <g id="Group-17">
+                <path d="M0,0 L0,80 C22.0912317,80 40,62.0912317 40,40 C40,17.9087683 22.0912317,0 0,0" id="Fill-5" fill="#4990E2"></path>
+                <polygon id="Path" fill="#FFFFFF" transform="translate(19.786856, 40.431381) scale(-1, 1) translate(-19.786856, -40.431381) " points="18.4813802 37.9456067 11 37.9456067 11 42.9924686 18.5315908 42.9924686 18.4813802 47.8627615 28.573712 40.4820084 18.4813802 33"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

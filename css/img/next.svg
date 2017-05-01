@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="80px" viewBox="0 0 40 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-19">
+            <path d="M0,0 L0,80 C22.0912317,80 40,62.0912317 40,40 C40,17.9087683 22.0912317,0 0,0" id="Fill-5" fill="#4990E2" opacity="0.8" transform="translate(20.000000, 40.000000) scale(-1, 1) translate(-20.000000, -40.000000) "></path>
+            <polygon id="Path" fill="#FFFFFF" points="18.9076683 37.9456067 11.426288 37.9456067 11.426288 42.9924686 18.9578789 42.9924686 18.9076683 47.8627615 29 40.4820084 18.9076683 33"></polygon>
+        </g>
+    </g>
+</svg>

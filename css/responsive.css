@@ -1,0 +1,116 @@
+@media (max-width: 768px) {
+  html {
+    background: #FBF9F4;
+  }
+  .section-steps {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start
+  }
+  .section-steps .-top {
+    flex: auto;
+    margin-bottom: 1rem
+  }
+  .section-steps .-bottom {
+    justify-content: center;
+    flex: auto;
+    width: 100%
+  }
+  .section-steps .-bottom span {
+    display: none
+  }
+  .section-paragraph, .panels .panel .description .-content p {
+    text-align: left;
+  }
+  .section-paragraph br, .panels .panel .description .-content br {
+    display: none;
+  }
+  .panels .panel .math {
+    flex-direction: column
+  }
+  .panels .panel .math-2 .-value span {
+    padding-top: 5rem;
+    padding-left: 0;
+    background-position: top center;
+    background-size: 4.5rem;
+    line-height: normal;
+  }
+  .panels .panel .math .-mid {
+    padding: 0 1rem;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .panels .panel .math-2 .-mid {
+    padding: 1rem;
+  }
+  .panels .panel .math-2 .-value {
+    text-align: center;
+  }
+  .panels .panel .math .-mid {
+    line-height: 2rem;
+  }
+  .panels .panel .math .-value, .panels .panel .math-2 .-mid .-value {
+    text-align: center
+  }
+  .panels .panel .math .-mid span {
+    line-height: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 0;
+  }
+  .panels .cards {
+    flex-direction: column;
+    margin-bottom: 0
+  }
+  .panels .cards .-card {
+    width: 100%;
+  }
+  .panels .cards .-card.-order-1 {
+    order: 1;
+  }
+  .panels .cards .-card.-order-2 {
+    order: 4;
+  }
+  .panels .cards .-card.-order-3 {
+    order: 2;
+  }
+  .panels .cards .-card.-order-4 {
+    order: 3;
+  }
+  .panels .simple-cards .-row {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  .panels .simple-cards .-row>button {
+    display: block;
+  }
+  .panels .simple-cards .-row .-item {
+    flex: 0 0 100%;
+    min-height: 0;
+  }
+  .panels .simple-cards .-row .-item .-value {
+    align-items: center;
+  }
+  .first-section .logo img {
+    max-width: 70%;
+  }
+  .section-steps .-bottom span {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 12px
+  }
+  .section-steps:not(.active) .-bottom a {
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 10px
+  }
+}
