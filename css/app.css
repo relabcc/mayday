@@ -91,6 +91,10 @@
       line-height: 5rem
     }
 
+    .first-section .-top .-main-title p {
+      color: #F69223
+    }
+
     .first-section .-top p {
       font-size: 1.25rem;
       margin-bottom: 1rem

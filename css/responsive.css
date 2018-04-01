@@ -2,6 +2,16 @@
   html {
     background: #FBF9F4;
   }
+  .first-section .-top .-main-title {
+    margin-bottom: 0.5rem
+  }
+  .first-section .-top .-main-title strong {
+    line-height: 4rem !important;
+  }
+  .first-section .-top .-main-title p {
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+  }
   .section-steps {
     flex-direction: column;
     align-items: flex-start;
