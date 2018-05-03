@@ -271,6 +271,7 @@
     .section-steps.disabled .-bottom a {
       background: #ECECEC!important;
       color: #4a4a4a!important;
+      cursor: default;
     }
 
     html.non-touch .section-steps .-bottom a:hover {
