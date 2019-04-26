@@ -163,7 +163,6 @@
       position: relative;
       padding: 3rem 0;
       padding-top: 4rem;
-      text-align: center;
     }
 
     /* .second-section .-bottom>div {
@@ -220,6 +219,10 @@
     }
 
     .section-align {
+      text-align: center;
+    }
+
+    .section-inline {
       display: inline-block;
     }
 

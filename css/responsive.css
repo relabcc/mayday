@@ -65,7 +65,7 @@
     display: none
   }
   .section-paragraph, .panels .panel .description .-content p {
-    text-align: left;
+    text-align: justify;
   }
   .section-paragraph br, .panels .panel .description .-content br {
     display: none;
