@@ -71,6 +71,13 @@ function doScroll($this) {
     a_c($('#panel3'));
     a_c($('#panel4'));
   }
+  if(target == "#panel5"){
+    a_c($('#panel1'));
+    a_c($('#panel2'));
+    a_c($('#panel3'));
+    a_c($('#panel4'));
+    a_c($('#panel5'));
+  }
   setTimeout(function() {
     $('html, body').stop(true, true).animate({
       'scrollTop': $target.offset().top - getValue(6)
