@@ -24,6 +24,7 @@ $(function() {
     e.preventDefault();
     if (!$('.section-steps').is('.disabled')) {
       doScroll($(this));
+      r_c($('.section-steps .-bottom'))
     }
   });
   $('.next-click.-init a').on('click', function(e) {
@@ -58,6 +59,10 @@ $(function() {
       }
     });
   });
+
+  $('.section-steps .-menu span').click(function() {
+    t_c($('.section-steps .-bottom'))
+  })
 
 //lightbox
 $('.lightbox-trigger').click(function(e) {

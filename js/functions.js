@@ -8,8 +8,12 @@ function r_c(a) {
   a.removeClass("active");
 }
 
+function t_c(a) {
+  a.toggleClass("active");
+}
+
 //convert em to px
-function getValue(value) {
+function emToPx(value) {
   var fontSize = $('html').css('font-size');
   return parseInt(fontSize) * value;
 }
@@ -23,8 +27,8 @@ function init() {
 }
 
 //change tabs on scroll
-function onScroll(event) {
-  var scrollPos = $(document).scrollTop() + getValue(6.25);
+function onScroll() {
+  var scrollPos = $(document).scrollTop() + emToPx(6.25);
   var secStep = $('.section-steps');
   $('a', secStep).each(function() {
     var currLink = $(this);
@@ -35,12 +39,13 @@ function onScroll(event) {
     } else {
       r_c($(currLink));
     }
-    if (secStep.offset().top <= scrollPos - getValue(5)) {
-      a_c(secStep);
-    } else {
-      r_c(secStep);
-    }
   });
+  
+  if (secStep.offset().top <= scrollPos - emToPx(5)) {
+    a_c(secStep);
+  } else {
+    r_c(secStep);
+  }
 }
 
 //scroll
@@ -50,8 +55,7 @@ function doScroll($this) {
   r_c($('a.active', $this.parent()));
   a_c($this);
   a_c($('.panels'));
-  var target = $this.attr('href'),
-    menu = target;
+  var target = $this.attr('href');
   $target = $(target);
   if(target == "#panel1"){
     a_c($('#panel1'));
@@ -80,7 +84,7 @@ function doScroll($this) {
   }
   setTimeout(function() {
     $('html, body').stop(true, true).animate({
-      'scrollTop': $target.offset().top - getValue(6)
+      'scrollTop': $target.offset().top - emToPx(6)
     }, 500, function() {
       $(document).on("scroll", onScroll);
     });

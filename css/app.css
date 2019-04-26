@@ -162,7 +162,8 @@
     .second-section {
       position: relative;
       padding: 3rem 0;
-      padding-top: 4rem
+      padding-top: 4rem;
+      text-align: center;
     }
 
     /* .second-section .-bottom>div {
@@ -218,6 +219,10 @@
       text-decoration: underline;
     }
 
+    .section-align {
+      display: inline-block;
+    }
+
     .section-steps {
       display: -webkit-box;
       display: -moz-box;
@@ -227,14 +232,14 @@
       align-items: center;
       font-size: 1.5rem;
       position: relative;
-      min-height: 5rem
+      min-height: 5rem;
+      padding-right: 1rem;
     }
 
     .note {
-      position: absolute;
       font-size: 1rem;
-      top: 100%;
-      left: 0
+      margin-top: 0.5em;
+      text-align: left;
     }
 
     .section-steps .-top {
@@ -243,11 +248,7 @@
     }
 
     .section-steps .-bottom {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
+      display: none;
       justify-content: center;
       align-items: center;
       flex-grow: 1;
@@ -258,7 +259,19 @@
       z-index: 20
     }
 
+    .section-steps .-new {
+      border: 2px solid #F69223;
+      border-radius: 3rem;
+      padding: 1rem 2rem;
+      text-align: left;
+    }
+
+    .section-steps .-menu {
+      display: none;
+    }
+
     .section-steps.active .-bottom {
+      display: flex;
       position: fixed;
       left: 0;
       right: 0;
@@ -347,7 +360,8 @@
 
     .panels.active {
       max-height: 1500rem;
-      opacity: 1
+      opacity: 1;
+      padding-top: 15vh;
     }
 
     .panels .panel {
