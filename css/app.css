@@ -396,6 +396,15 @@
       text-decoration: underline;
     }
 
+    .panels .panel .section>ol li a {
+      color: #F69223;
+      text-decoration: none;
+    }
+
+    .panels .panel .section>ol li a:hover {
+      text-decoration: underline;
+    }
+
     .panels .panel .section>ol li {
       font-size: 1.25rem;
       margin-bottom: 1rem;
